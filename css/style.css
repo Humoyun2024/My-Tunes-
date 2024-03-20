@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1400px;
+    margin: auto;
+}
+#navbar{
+    height: 40px;
+    background-color: #333;
+}
+#navbar .li2{
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 10px;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+}
+#navbar .li2:hover,.li1:hover{
+    background-color: rgb(71, 71, 71);
+}
+#navbar .li2 a,.li1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.li1{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 10px;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+}
+.myTunes{
+    background-image: url(../img/img-1.jpeg);
+    height: 913px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.myTunes_text{
+    padding-top: 350px;
+    font-size: 30px;
+}
